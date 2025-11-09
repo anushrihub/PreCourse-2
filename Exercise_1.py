@@ -11,19 +11,16 @@ def binarySearch(arr, l, r, x):
 
   # finding the middle index
   mid_index = int((l + r) / 2)
-  print("func called with", l,r)
   # checking if middle is equal to given element
   if x == arr[mid_index]:
     return mid_index
   
   # checking if the given element is grater than middle element
   elif (x > arr[mid_index]):
-    print("x > mid_index")
     return binarySearch(arr, mid_index+1, r, x)
     
   # checking if the given element is less than middle element
   elif (x < arr[mid_index]):
-    print("x < mid_index")
     return binarySearch(arr,l ,mid_index-1, x)
   
   return -1
