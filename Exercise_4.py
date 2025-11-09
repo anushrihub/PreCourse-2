@@ -9,10 +9,9 @@ def printList(arr):
     #write your code here
   
 # driver code to test the above code 
-if __name__ == '__main__': 
     arr = [12, 11, 13, 5, 6, 7]  
-    print ("Given array is", end="\n")  
+    print("Given array is", arr)  
     printList(arr) 
     mergeSort(arr) 
-    print("Sorted array is: ", end="\n") 
+    print("Sorted array is: ",) 
     printList(arr) 
