@@ -1,7 +1,7 @@
 # Python program for implementation of MergeSort 
 # Time Complexity : O(n log n)
 # Space Complexity : O(n)
-# Did this code successfully run on Leetcode : No. Could not find this problem(with 4 argument) on geeks or leetcode
+# Did this code successfully run on Leetcode : No. Could not find this problem (with 1 argument) on geeks or leetcode
 # Any problem you faced while coding this : Yes. While implementing the merging logic.
 def mergeSort(arr):
   
