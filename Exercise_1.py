@@ -1,5 +1,8 @@
-# Python code to implement iterative Binary  
-# Search. 
+# Python code to implement iterative Binary Search. 
+# Time Complexity : O(log n)
+# Space Complexity : O(1)
+# Did this code successfully run on Leetcode : No. Could not find this problem(with 4 argument) on geeks or leetcode
+# Any problem you faced while coding this : No
 
 # It returns location of x in given array arr  
 # if present, else returns -1 
@@ -26,7 +29,7 @@ def binarySearch(arr, l, r, x):
   return -1
   
 # Test array 
-arr = [ 2, 3, 4, 10, 40] 
+arr = [2, 3, 4, 10, 40] 
 x = 3
   
 # Function call 
