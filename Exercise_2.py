@@ -1,5 +1,9 @@
 # Python program for implementation of Quicksort Sort 
-  
+# Time Complexity : O(n log n)
+# Space Complexity : O(1)
+# Did this code successfully run on Leetcode : Yes on Geeksforgeeks
+# Any problem you faced while coding this : No
+
 # give you explanation for the approach
 
 # in the parition function, finding the partition position of the pivot element
