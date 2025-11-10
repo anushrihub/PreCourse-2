@@ -1,3 +1,8 @@
+# Time Complexity : O(n)
+# Space Complexity : O(1)
+# Did this code successfully run on Leetcode : Yes. On Geeksforgeeks
+# Any problem you faced while coding this : No
+
 import math
 # Node class  
 class Node:  
